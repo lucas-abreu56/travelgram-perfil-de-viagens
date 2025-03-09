@@ -70,3 +70,17 @@ html {
     align-items: center;
     gap: 8px;
 }
+
+.user-img{
+    padding: 24px 32px 24px 32px;
+}
+
+.user-img-first-column,
+.user-img-second-column,
+.user-img-third-column{
+    display: flex;
+    justify-content: center;
+    height: 286px;
+    gap: 48px;
+    margin-bottom: 24px;
+}
