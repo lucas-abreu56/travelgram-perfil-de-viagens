@@ -34,6 +34,9 @@ html {
     align-items: center;
     gap: 16px;
     margin: 20px 32px 20px 0;
+    color: var(--cor-secundaria);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .user-information {
@@ -53,6 +56,13 @@ html {
     display: flex;
     flex-direction: column;
     padding-left: 32px;
+    h1{
+        font-size: 32px;
+        font-weight: 700;
+    }
+    p{
+        color: var(--cor-secundaria);
+    }
 }
 
 .user-travel-data{
@@ -63,6 +73,7 @@ html {
     height: 104px;
     margin: 68px 32px 68px 0;
     gap: 16px;
+    color: var(--cor-secundaria);
 }
 
 .user-travel-data-details{
@@ -73,6 +84,7 @@ html {
 
 .user-img{
     padding: 24px 32px 24px 32px;
+    justify-content: center;
 }
 
 .user-img-first-column,
@@ -83,4 +95,17 @@ html {
     height: 286px;
     gap: 48px;
     margin-bottom: 24px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 32px 24px 32px;
+    align-items: center;
+    color: var(--cor-secundaria);
+}
+
+.telgram-policy {
+    display: flex;
+    gap: 16px;
 }
