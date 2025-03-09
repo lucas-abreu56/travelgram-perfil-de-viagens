@@ -1,5 +1,56 @@
+:root{
+    --cor-primaria: #313131;
+    --cor-secundaria: #6C6C6C;
+    --cor-de-fundo: #FFF;
+    --cor-do-logo: #EF5F4C;
+    --cor-da-superficie: #F5F5F5;
+    --fonte-primaria: "Poppins", sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
+    font-family: var(--fonte-primaria);
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cor-da-superficie);
+}
+
+.travelgram-logo {
+    align-items: center;
+    margin: 24px 0 24px 32px;
+}
+
+.information-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 20px 32px 20px 0;
+}
+
+.user-information {
+    display: flex;
+    background-color: var(--cor-da-superficie);
+    justify-content: space-between;
+}
+
+.user-bio{
+    display: flex;
+    width: 592px;
+    height: 176px;
+    margin: 32px 0 32px 32px;
+}
+
+.user-data {
+    display: flex;
+    flex-direction: column;
+    padding-left: 32px;
 }
