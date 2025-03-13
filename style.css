@@ -82,9 +82,16 @@ html {
     gap: 8px;
 }
 
-.user-img{
-    padding: 24px 32px 24px 32px;
+.container-img{
+    display: flex;
     justify-content: center;
+}
+
+.user-img{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px 32px 24px 32px;
+    gap: 24px;
 }
 
 .user-img-first-column,
