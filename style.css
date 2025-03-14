@@ -26,17 +26,26 @@ html {
 
 .travelgram-logo {
     align-items: center;
-    margin: 24px 0 24px 32px;
+    margin: 1.5rem 0 1.5rem 2rem;
 }
 
 .information-header {
     display: flex;
     align-items: center;
-    gap: 16px;
-    margin: 20px 32px 20px 0;
+    gap: 1rem;
+    margin: 1.3rem 2rem 1.3rem 0;
     color: var(--cor-secundaria);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+a:hover{
+    color: var(--cor-do-logo);
+    text-decoration: underline;
 }
 
 .user-information {
@@ -47,17 +56,17 @@ html {
 
 .user-bio{
     display: flex;
-    width: 592px;
-    height: 176px;
-    margin: 32px 0 32px 32px;
+    width: 37rem;
+    height: 11rem;
+    margin: 2rem 0 2rem 2rem;
 }
 
 .user-data {
     display: flex;
     flex-direction: column;
-    padding-left: 32px;
+    padding-left: 2rem;
     h1{
-        font-size: 32px;
+        font-size: 2rem;
         font-weight: 700;
     }
     p{
@@ -69,17 +78,17 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 280px;
-    height: 104px;
-    margin: 68px 32px 68px 0;
-    gap: 16px;
+    width: 17.5rem;
+    height: 6.5rem;
+    margin: 4.25rem 2rem 4.25rem 0;
+    gap: 1rem;
     color: var(--cor-secundaria);
 }
 
 .user-travel-data-details{
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 0.5rem;
 }
 
 .container-img{
@@ -90,8 +99,8 @@ html {
 .user-img{
     display: flex;
     flex-wrap: wrap;
-    padding: 24px 32px 24px 32px;
-    gap: 24px;
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    gap: 1.5rem;
 }
 
 .user-img-first-column,
@@ -99,15 +108,15 @@ html {
 .user-img-third-column{
     display: flex;
     justify-content: center;
-    height: 286px;
-    gap: 48px;
-    margin-bottom: 24px;
+    height: 17.875rem;
+    gap: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 footer{
     display: flex;
     justify-content: space-between;
-    padding: 24px 32px 24px 32px;
+    padding: 1.5rem 2rem 1.5rem 2rem;
     align-items: center;
     color: var(--cor-secundaria);
 }
