@@ -60,6 +60,7 @@ a:hover{
     width: 37rem;
     height: 11rem;
     margin: 2rem 0 2rem 2rem;
+    justify-content: space-between;
 }
 
 .user-data {
@@ -125,4 +126,79 @@ footer{
 .telgram-policy {
     display: flex;
     gap: 16px;
+}
+
+@media (width <= 63rem) {
+    .information-header{
+        a {
+            display: none;
+        }
+    }
+
+    .user-information {
+        display: flex;
+        flex-direction: column;
+        height: 32.375rem;
+        & .user-bio {
+            display: flex;
+            flex-direction: column;
+            max-width: 19.875rem;
+            margin-left: 2rem;
+        
+    
+        & > img {
+            width: 7.5rem;
+            height: 7.5rem;
+            margin-bottom: 1rem;
+        }
+    
+        & .user-data {
+            padding-left: 0;
+    
+            & h1 {
+                font-size: 1.5rem;
+            }
+    
+            & p{
+                font-size: 0.875rem;
+            }
+        }
+    
+        }
+    }
+    .user-travel-data {
+        margin: 2rem 0 2rem 2rem;
+        
+        & p {
+            font-size: 14px;
+        }
+    }
+
+    .container-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        & .user-img {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        
+        & .copyright {
+            font-size: 14px;
+        }
+
+        & .telgram-policy {
+            display: flex;
+            font-size: 14px;
+        }
+    }
 }
