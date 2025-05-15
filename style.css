@@ -103,6 +103,8 @@ a:hover{
     flex-wrap: wrap;
     padding: 1.5rem 2rem 1.5rem 2rem;
     gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .user-img-first-column,
@@ -179,13 +181,6 @@ footer{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
-        & .user-img {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
     }
 
     footer {
